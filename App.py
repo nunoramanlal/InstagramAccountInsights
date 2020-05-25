@@ -11,7 +11,6 @@ print('following')
 for user in followingListUsers:
     print(user)
 
-
 print('.............')
 print('following')
 for user in followersListUsers:
