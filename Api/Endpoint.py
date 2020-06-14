@@ -16,6 +16,9 @@ class Endpoint:
 
     def getFollowing(self, userid):
         return self.api.user_following(userid, self.api.generate_uuid())
+
+    def getFeedLiked(self):
+        return self.api.feed_liked()
           
        
 

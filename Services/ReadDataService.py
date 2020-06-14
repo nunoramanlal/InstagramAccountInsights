@@ -24,3 +24,4 @@ def getFollowersUserNames(data):
 		entry = readJson(followersListEntry)['username']
 		followersUsernames.append(entry)
 	return followersUsernames
+
